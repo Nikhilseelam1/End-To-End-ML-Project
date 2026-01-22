@@ -1,5 +1,4 @@
 pandas
-notebook==6.5.6
 numpy
 scikit-learn
 matplotlib
@@ -10,6 +9,5 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
-pywinpty==1.1.6
-jupyter-packaging==0.12.3
+ipykernel
 -e .
