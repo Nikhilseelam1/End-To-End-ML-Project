@@ -1,4 +1,3 @@
-# End-To-End-ML-Project
 # End-to-End Machine Learning Pipeline Project
 
 ##  Overview
@@ -52,7 +51,6 @@ All pipeline behavior is controlled using YAML configuration files:
 ##  How to Run the Project
 
 ### Step 1: Clone the repository
-```bash
 git clone https://github.com/<your-username>/End-To-End-ML-Project.git
 cd End-To-End-ML-Project
 
