@@ -11,7 +11,6 @@ class DataTransformationTrainingPipeline:
     def __init__(self):
         pass
 
-
     def main(self):
         try:
             with open(Path("artifacts/data_validation/status.txt"), "r") as f:
