@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
+from typing import List, Optional
 
 
 @dataclass(frozen=True)
@@ -27,15 +28,20 @@ class ModelTrainerConfig:
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    alpha: float
-    l1_ratio: float
+
+    n_estimators: List[int]
+    max_depth: List[Optional[int]]
+    min_samples_split: List[int]
+    min_samples_leaf: List[int]
+    max_features: List[str]
+
     target_column: str
+
 
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path
     test_data_path: Path
     model_path: Path
-    all_params: dict
     metric_file_name: Path
     target_column: str
