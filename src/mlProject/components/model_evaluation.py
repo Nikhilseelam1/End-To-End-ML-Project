@@ -8,8 +8,6 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from mlProject.utils.common import save_json
 from mlProject.entity.config_entity import ModelEvaluationConfig
 from mlProject import logger
-
-
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config

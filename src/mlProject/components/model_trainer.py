@@ -6,7 +6,7 @@ from mlProject import logger
 from mlProject.entity.config_entity import ModelTrainerConfig
 
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import RandomizedSearchCV
+from sklearn.model_selection import RandomizedSearchCV  
 
 
 class ModelTrainer:
